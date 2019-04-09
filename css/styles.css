@@ -43,3 +43,90 @@ h3.lead{
   color: #000;
   font-family: 'Scheherazade', serif;
 }
+.img{
+  background-image: url("/home/charles/docs/Documents/projects/a-hotel-project/images/apartment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+#centerh1{
+  text-align: center;
+  font-family: 'Scheherazade', serif;
+  padding: 20px;
+  font-family: bold;
+}
+/*-- special --*/
+.special {
+    background: #ebfdfb;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2), 0 0px 0px rgba(0, 0, 0, 0);
+}
+.special-grids .special-img {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.wthree-special-info h4 {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.captn p {
+    font-size: .9em;
+    margin-top: 1em;
+	color:#fff;
+	line-height:1.8em;
+}
+.special-grids .captn {
+	display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.captn-top {
+    padding: 16% 10%;
+}
+.special-img:hover .captn {
+	width: 100%;
+	top: 0%;
+}
+img.img-responsive {
+    width: 100%;
+}
+.special .wthree-special-info{
+    background: rgb(219, 89, 52);
+    padding: 1em;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    transition: 1s all;
+}
+.special-img:hover .wthree-special-info {
+    -webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+    transform: scale(1);
+}
+.w3-agile-special:nth-child(2){
+	margin:2em 0 0 0;
+}
+/*-- //special --*/
