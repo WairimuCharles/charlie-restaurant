@@ -279,7 +279,7 @@ a.btn-card {
 }
 .newsletter {
 padding: 80px 0;
-background: #19beda;
+background-image: url("../images/s24.jpg");
 }
 
 .newsletter .content {
@@ -664,62 +664,49 @@ h1{
   width:200px;
   cursor: pointer;
 }
-.bayo {
-    width:900px;
-    margin:250px auto 0;
-    display:flex;
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+h6
+{
+    font-size:1.5rem;
+    text-decoration: underline;
 }
-.bayo .box {
-    position:relative;
-    width: 300px;
-    height:100px;
-    box-sizing:border-box;
-    text-align:center;
-    margin:0 10px;
-    background:#00171d;
-    overflow:hidden;
-    border-radius:4px;
-    box-shadow:0 0 0 2px rgba(0,7,10,1);
+.footer
+{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    background-color:#216910;
+    color:#ACFF99;
+    font-size:1.2rem;
 }
-.bayo .box .icon {
-    width:100%;
-    height:100%;
-    background:#00171d;
-    transition: 0.5s;
+
+.footer  ul {
+    list-style-type:none;
 }
-.bayo .box .icon .fa {
-    font-size: 4em;
-    line-height:100px;
-    color: #0ff;
-}
-.bayo .box:hover .icon {
-    transform:scale(0);
-}
-.bayo .box .details {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:#03a9f4;
-    transition:0.5s;
-    transform:scale(2);
-    opacity:0;
-}
-.bayo .box:hover .details {
-    transform:scale(1);
-    opacity:1;
-}
-.bayo .box .details h3 {
-    margin:0;
-    padding:0;
-    line-height:100px;
-    font-size:24px;
+
+.footer a
+{
     color:#fff;
 }
-.bayo .box .details:nth-child(2) .details {
-    background:#e91e63;
+.footer a:hover
+{
+    color:#fff;
 }
-.bayo .box .details:nth-child(2) .details {
-    background:#607d8b;
+
+.footer .widget_nav_menu ul li::before {
+    position: relative;
+    padding-right: 20px;
+    content: "\f178";
+    font-family: "FontAwesome";
+   /* color: rgba(255, 255, 255, 0.15); */
+    font-size: 12px;
+}
+.appoint
+{
+    margin:2rem 0 2rem 0;
+}
+.bottom-footer .fa
+{
+    font-size:2.5rem;
+    padding:.7rem;
 }
