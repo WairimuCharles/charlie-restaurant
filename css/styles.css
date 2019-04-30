@@ -102,7 +102,7 @@ h3.lead{
   font-family: 'Scheherazade', serif;
 }
 .lazii{
-  background-image: url("/home/charles/docs/Documents/projects/a-hotel-project/images/apartment.jpg");
+  background-image: url("../images/apartment.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
